@@ -1,0 +1,21 @@
+{{
+	"metal_auth_token": "ENC[AES256_GCM,data:zmVwAJBT4jxLA+XjYwMHSxgJhfj23c+uhr02679a3eU=,iv:+9K4g431uN33YSnimu/0fqII591aNMNcIBBf6o7kc5Y=,tag:HEp95LMZvB2HZqDL0ZyreQ==,type:str]",
+	"sops": {
+		"kms": null,
+		"gcp_kms": [
+			{
+				"resource_id": "projects/josh-projects/locations/us-central1/keyRings/edge-equinix-metal-demo-key-ring/cryptoKeys/equinix-metal-demo-key",
+				"created_at": "2023-01-17T16:22:03Z",
+				"enc": "CiQA4Mj0/mSskGIC5W+CUxqmFQHTtiXVKXwgttYcBwD0WjPmVHwSSQBUB3RrftSbmwiXeKZQhZeXTX5YWYcdC4YWUnAMiw/qZXDhUXjuHmnBtVOrjrzNlOdOP0QGWdbw09dQX3tcHgo0winRwJtlwzE="
+			}
+		],
+		"azure_kv": null,
+		"hc_vault": null,
+		"age": null,
+		"lastmodified": "2023-01-17T16:22:04Z",
+		"mac": "ENC[AES256_GCM,data:ls5WxwPzVn49XUQHQwGDpzyWydgh08N1dTS+311Di+zkPNyxE2AS0+TqTNMDen5HWg122THUgEy79hyIJ3A7Tp0k/29silttgloQ73l/3GYoQ65ZQbYBfBqZnYIJuN/MqX5AraLYhODGV9scHWw2QQ6yXqfHER6FwgaVA4CggGI=,iv:J3KW/atVwF90I8tqxrbRwV/foAeJG3ysec0cF1TswX4=,tag:U0vZwuQiHTiNDckG1oFGxw==,type:str]",
+		"pgp": null,
+		"unencrypted_suffix": "_unencrypted",
+		"version": "3.7.3"
+	}
+}}
